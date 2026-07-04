@@ -44,21 +44,25 @@ export default function App() {
       <About />
       <ThreadDivider />
       <StoryTimeline />
-      <ThreadDivider />
+      {/* <ThreadDivider /> */}
       <Gallery />
-      <ThreadDivider />
+      {/* <ThreadDivider /> */}
       <Moments />
       <ThreadDivider />
       <LoveLetter />
       <ThreadDivider />
       <Reasons />
-      <ThreadDivider />
+      {/* <ThreadDivider /> */}
       <VideoSection />
-      <ThreadDivider />
+      {/* <ThreadDivider /> */}
       <Wishes />
       <Surprise />
 
-      <MusicPlayer audioRef={audioRef} playing={playing} onToggle={toggleMusic} />
+      <MusicPlayer
+        audioRef={audioRef}
+        playing={playing}
+        onToggle={toggleMusic}
+      />
 
       <footer className="text-center py-8 text-[0.7rem] tracking-[0.15em] uppercase text-cream/40">
         Made with ❤️ — happy birthday

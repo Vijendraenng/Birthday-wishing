@@ -61,12 +61,7 @@ export const REASONS = [
 
 /** Add real filenames once you drop photos into /public/images */
 export const GALLERY = [
-  { src: "/images/photo1.jpg", caption: "That day at the beach" },
-  { src: "/images/photo2.jpg", caption: "Our first trip together" },
-  { src: "/images/couple1.jpg", caption: "Just us" },
-  { src: "/images/photo3.jpg", caption: "Late night laughs" },
-  { src: "/images/hero.jpg", caption: "My favorite photo of you" },
-  { src: "/images/background.jpg", caption: "A perfect afternoon" },
+  { src: "/images/pic1.jpg", caption: "That day at the beach" },
 ];
 
 export const LOVE_LETTER = [
@@ -75,7 +70,7 @@ export const LOVE_LETTER = [
   "Thank you for making life beautiful, ordinary Tuesdays included.",
 ];
 
-export const AUDIO_SRC = "/music/romantic-song.mp3";
+export const AUDIO_SRC = "/music/mucsic1.mp3";
 export const VIDEO_SRC = "/videos/memories.mp4";
 
 export const NAV_SECTIONS = [

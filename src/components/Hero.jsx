@@ -19,12 +19,8 @@ export default function Hero({ playing, onToggleMusic }) {
       </p>
 
       <h1 className="font-display font-semibold text-5xl sm:text-7xl leading-[1.04] max-w-xl">
-        Happy Birthday <em className="not-italic italic text-rose">My Love</em>
+        Happy Birthday <em className="not-italic italic text-rose">Mansi</em>
       </h1>
-
-      <p className="mt-4 text-lg max-w-md text-rose-soft">
-        Every moment with you is magical. Today is all about celebrating <strong>you</strong>.
-      </p>
 
       <div className="mt-10 flex flex-wrap gap-3 justify-center">
         <a

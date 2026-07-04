@@ -25,7 +25,7 @@ export default function MusicPlayer({ audioRef, playing, onToggle }) {
         ))}
       </div>
 
-      <span className="text-[0.7rem] max-w-[110px] truncate text-rose-soft">romantic-song.mp3</span>
+      <span className="text-[0.7rem] max-w-[110px] truncate text-rose-soft">mucsic1.mp3</span>
       <SkipForward size={15} className="text-cream/50" />
       <audio ref={audioRef} src={AUDIO_SRC} loop preload="none" />
     </div>
